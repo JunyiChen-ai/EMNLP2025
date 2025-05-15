@@ -689,7 +689,6 @@ def train(args, custom_cfg=None, is_hyperopt=False):
     val_indices = val_dataset.indices
     test_indices = test_dataset.indices
     
-    # Use dedicated function to remove empty tensors, without affecting random state
     filtered_train_indices = remove_empty_tensors(full_dataset, train_indices, "Training set")
     filtered_val_indices = remove_empty_tensors(full_dataset, val_indices, "Validation set")
     filtered_test_indices = remove_empty_tensors(full_dataset, test_indices, "Test set")
