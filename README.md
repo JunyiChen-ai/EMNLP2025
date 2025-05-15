@@ -34,4 +34,4 @@ python FakeNewsDetection/train_invreg.py --hyperparams FakeNewsDetection/best_pa
 
 ## Model Description
 
-FIRM is a framework for rumor detection that incorporates invariant group fairness. The approach aims to promote fairness in rumor detection models by learning invariant representations across different demographic groups.
+FIRM is a framework for rumor detection that incorporates invariant group fairness. The approach aims to promote fairness in rumor detection models by learning invariant representations across different stakeholder groups (in this study, they are platforms, domains and authors, due to the constraints of current available rumor detection datasets).
