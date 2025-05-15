@@ -702,7 +702,7 @@ def train(args, custom_cfg=None, is_hyperopt=False):
     train_size = len(train_dataset_orig)
     val_size = len(val_dataset)
     test_size = len(test_dataset)
-    logging.info(f"Dataset sizes after removing empty tensors: Training set {train_size} samples, Validation set {val_size} samples, Test set {test_size} samples")
+    logging.info(f"Dataset sizes: Training set {train_size} samples, Validation set {val_size} samples, Test set {test_size} samples")
 
     # Create a wrapper class to reset sample indices
     class IndexResetDataset(Dataset):
