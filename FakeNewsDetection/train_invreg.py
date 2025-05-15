@@ -655,7 +655,7 @@ def train(args, custom_cfg=None, is_hyperopt=False):
         tokenizer = BertTokenizer.from_pretrained(cfg.network)
     else:
         tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')
-        # cfg.network = 'bert-base-chinese'
+        
     
     
     # Load dataset and split into train/validation/test sets
