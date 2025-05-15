@@ -680,9 +680,7 @@ def train(args, custom_cfg=None, is_hyperopt=False):
         [train_size, val_size, test_size],
         generator=generator
     )
-    
-    # Remove empty tensor samples from each subset
-    logging.info("Starting to check and remove empty tensor samples from each subset...")
+      
     
     # Get original indices
     train_indices = train_dataset_orig.indices
