@@ -47,9 +47,7 @@ def get_config():
     cfg.augmentation.augment_size = 0.3  # proportion of augmented samples
     
     # Model configuration
-    # cfg.network = "bhadresh-savani/bert-base-go-emotion"  # backbone network
     cfg.network = "bert-base-uncased"  # backbone network
-    # cfg.network = "mdfend"  # backbone network
     cfg.num_classes = 3  # number of classes
     cfg.dropout = 0.2  # dropout rate for regularization
     cfg.embedding_size = 512  # embedding dimension
