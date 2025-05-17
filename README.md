@@ -10,7 +10,7 @@ FIRM/
 │   ├── configs/             # Configuration files
 │   ├── data_utils/          # Data processing utilities
 │   ├── utils/               # Helper functions
-│   ├── train_invreg.py      # Main training script
+│   ├── train.py             # Main training script
 │   ├── fake_news_fc.py      # Model implementation
 │   
 └── processed_data/
