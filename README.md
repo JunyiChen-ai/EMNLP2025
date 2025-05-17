@@ -26,9 +26,9 @@ To reproduce the experimental results, run the following commands:
 cd FIRM
 
 # Run experiment on Chinese dataset
-python FakeNewsDetection/train_invreg.py --hyperparams FakeNewsDetection/best_params_ch.json --language ch --data_path ./processed_data/Chinese_preprocessed_endef.pkl
+python FakeNewsDetection/train.py --hyperparams FakeNewsDetection/best_params_ch.json --language ch --data_path ./processed_data/Chinese_preprocessed_endef.pkl
 
 # Run experiment on English dataset
-python FakeNewsDetection/train_invreg.py --hyperparams FakeNewsDetection/best_params_en.json --language en --data_path ./processed_data/FineFake_preprocessed_endef.pkl
+python FakeNewsDetection/train.py --hyperparams FakeNewsDetection/best_params_en.json --language en --data_path ./processed_data/FineFake_preprocessed_endef.pkl
 ```
 
