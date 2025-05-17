@@ -16,7 +16,6 @@ def get_config():
     cfg.fp16 = False   # do not use FP16
     
     # Data-related configuration
-    # cfg.data_path = "./processed_data/FineFake_preprocessed_endef_modified.pkl"  # data path
     cfg.data_path = "./processed_data/FineFake_preprocessed_endef.pkl"  # data path
     # cfg.data_path = "./processed_data/Chinese_preprocessed_endef.pkl"  # data path
     # Ensure data path exists; if not, try other possible paths
