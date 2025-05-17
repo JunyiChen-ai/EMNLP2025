@@ -6,8 +6,6 @@ import logging
 import os
 
 # Setting proxy environment variables
-os.environ['HTTP_PROXY'] = 'http://squid.auckland.ac.nz:3128'
-os.environ['HTTPS_PROXY'] = 'http://squid.auckland.ac.nz:3128'
 
 # Define a simple stopwords list to avoid depending on nltk download
 STOPWORDS = {"the", "a", "an", "and", "or", "but", "is", "are", "was", "were", 
